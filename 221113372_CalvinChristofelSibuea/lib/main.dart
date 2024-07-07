@@ -3,6 +3,7 @@ import 'package:inggris_untuk_anak/help/square_tile.dart';
 import 'package:inggris_untuk_anak/models/soal_model.dart';
 import 'package:inggris_untuk_anak/pages/alphabets.dart';
 import 'package:inggris_untuk_anak/pages/animals.dart';
+import 'package:inggris_untuk_anak/pages/arrange_word.dart';
 import 'package:inggris_untuk_anak/pages/guess.dart';
 import 'package:inggris_untuk_anak/pages/numbers.dart';
 import 'package:inggris_untuk_anak/pages/fruits.dart';
@@ -78,6 +79,15 @@ class MyHomePage extends StatelessWidget {
       "rute": (BuildContext context) {
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => GuessPage()));
+        }
+    },
+    {
+      "nama": "Arrange the Word",
+      "arti": "Susun Kalimat",
+      "img": "lib/images/puzzle3.jpg",
+      "rute": (BuildContext context) {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => const ArrangeWord()));
         }
     },
   ];

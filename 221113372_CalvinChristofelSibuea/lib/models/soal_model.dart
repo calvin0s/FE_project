@@ -11,21 +11,11 @@ class SoalModel extends ChangeNotifier {
   final List animal = animalsData;
   final List number = numbersData;
   final List fruit = fruitsData;
-  static List total = alphabetData + animalsData + numbersData + fruitsData;
   int count = 0;
-  static int countProgress = 1;
 
   void next() {
     count += 1;
     notifyListeners(); // Beritahu konsumen bahwa state telah diperbarui
-  }
-
-  double nextProgress(int lengths) {
-    countProgress += 1;
-    if(countProgress >= lengths){
-      countProgress = lengths;
-    }
-    return countProgress/lengths * 100;
   }
 
   void back() {
