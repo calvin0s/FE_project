@@ -12,6 +12,9 @@
 4. PopupMenuButton \
    <img width="250" alt="pop1" src="https://github.com/calvin0s/FE_project/assets/174256755/4c30bdc4-d075-4793-96fe-9b9bd728077c">
    <img width="250" alt="pop2" src="https://github.com/calvin0s/FE_project/assets/174256755/d648e9d0-6df5-4979-97f9-f86663a4ce77">
+5. LinearProgressIndicator \
+   <img width="250" alt="progress1" src="https://github.com/calvin0s/FE_project/assets/174256755/236c7a90-96c2-4a17-a7b9-99b4abae993a">
+   <img width="250" alt="progress2" src="https://github.com/calvin0s/FE_project/assets/174256755/115f4aad-ae42-4ccd-86dc-7da65da8fade">
 
 
 
