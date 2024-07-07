@@ -1,16 +1,5 @@
-# yosha
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Layout setiap pages selain Home dan Guess, Mengatur rute
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/45e5a953-9f04-461b-b727-cee437eb63e9)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/ff8ee4ca-ccf7-4cca-aeec-a44033ee9df2)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/28eba1ba-4736-46b9-a426-cb507266e7f4)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/0c43233f-bfa5-4d79-a002-291460da1327)
