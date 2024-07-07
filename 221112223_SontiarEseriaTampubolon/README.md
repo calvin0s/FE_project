@@ -1,16 +1,5 @@
-# english_for_kids
+english_for_kids
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Membuat Layout Pages
+   
+![Screenshot (250)](https://github.com/calvin0s/FE_project/assets/165302623/6229a36e-b366-4759-8000-d064b920010f)
