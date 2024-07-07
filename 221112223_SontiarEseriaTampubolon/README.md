@@ -6,7 +6,7 @@ english_for_kids
 
 ![Screenshot (493)](https://github.com/calvin0s/FE_project/assets/165302623/fefd4815-6448-4542-a185-e3a741d7db3d)
 
-1. Tooltip dan Slider
+2. Tooltip dan Slider
    
 ![Screenshot (493)](https://github.com/calvin0s/FE_project/assets/165302623/fb043291-7afa-43d3-83e1-614c67f5537a)
    
