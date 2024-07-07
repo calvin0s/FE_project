@@ -1,5 +1,20 @@
 1. Layout setiap pages selain Home dan Guess, Mengatur rute
-   ![image](https://github.com/calvin0s/FE_project/assets/165680717/45e5a953-9f04-461b-b727-cee437eb63e9) ![image](https://github.com/calvin0s/FE_project/assets/165680717/ff8ee4ca-ccf7-4cca-aeec-a44033ee9df2) ![image](https://github.com/calvin0s/FE_project/assets/165680717/28eba1ba-4736-46b9-a426-cb507266e7f4) ![image](https://github.com/calvin0s/FE_project/assets/165680717/0c43233f-bfa5-4d79-a002-291460da1327)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/45e5a953-9f04-461b-b727-cee437eb63e9)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/ff8ee4ca-ccf7-4cca-aeec-a44033ee9df2)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/28eba1ba-4736-46b9-a426-cb507266e7f4)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/0c43233f-bfa5-4d79-a002-291460da1327)
 
-   
-   
+2. Quiz using Radiobutton method
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/98543ad8-b719-4ff1-ae60-2ef88c4c7005)
+
+3. Login and Register Page
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/c153bc5d-319d-4b52-9e27-7597a4651382)
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/c40c1fc2-e956-4176-908c-eb78459591b9)
+
+4. Drawer and List Application
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/990e9311-ad64-40a1-97ff-dcb01b66a22f)
+
+5. Circular Progress Indicator
+   ![image](https://github.com/calvin0s/FE_project/assets/165680717/adc17f90-89f0-43b4-858e-377cc387d13b)
+
+
