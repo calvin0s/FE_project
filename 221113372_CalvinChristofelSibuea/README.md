@@ -6,3 +6,9 @@
    <img width="250" alt="layout" src="https://github.com/calvin0s/FE_project/assets/174256755/7414331d-cd64-4a87-88a8-7a7f05141a6b">
    <img width="250" alt="arrange1" src="https://github.com/calvin0s/FE_project/assets/174256755/7aa6b63e-84d5-4f6a-a2ca-9bc9ccafd5dd">
    <img width="250" alt="arrange2" src="https://github.com/calvin0s/FE_project/assets/174256755/c4e7be0b-8a30-4784-9a50-19a28c108a1f">
+3. Bottom Navigation \
+   <img width="340" alt="bottomnav1" src="https://github.com/calvin0s/FE_project/assets/174256755/c6fcb8a7-18fb-427b-9181-a54db9cdfb5b">
+   <img width="343" alt="bottomnav2" src="https://github.com/calvin0s/FE_project/assets/174256755/766f0665-58a0-4dd0-ae86-6f36e3669729">
+
+
+   
