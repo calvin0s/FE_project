@@ -7,8 +7,13 @@
    <img width="250" alt="arrange1" src="https://github.com/calvin0s/FE_project/assets/174256755/7aa6b63e-84d5-4f6a-a2ca-9bc9ccafd5dd">
    <img width="250" alt="arrange2" src="https://github.com/calvin0s/FE_project/assets/174256755/c4e7be0b-8a30-4784-9a50-19a28c108a1f">
 3. Bottom Navigation \
-   <img width="340" alt="bottomnav1" src="https://github.com/calvin0s/FE_project/assets/174256755/c6fcb8a7-18fb-427b-9181-a54db9cdfb5b">
-   <img width="343" alt="bottomnav2" src="https://github.com/calvin0s/FE_project/assets/174256755/766f0665-58a0-4dd0-ae86-6f36e3669729">
+   <img width="250" alt="bottomnav1" src="https://github.com/calvin0s/FE_project/assets/174256755/c6fcb8a7-18fb-427b-9181-a54db9cdfb5b">
+   <img width="250" alt="bottomnav2" src="https://github.com/calvin0s/FE_project/assets/174256755/766f0665-58a0-4dd0-ae86-6f36e3669729">
+4. PopupMenuButton \
+   <img width="250" alt="pop1" src="https://github.com/calvin0s/FE_project/assets/174256755/4c30bdc4-d075-4793-96fe-9b9bd728077c">
+   <img width="250" alt="pop2" src="https://github.com/calvin0s/FE_project/assets/174256755/d648e9d0-6df5-4979-97f9-f86663a4ce77">
 
 
-   
+
+
+
