@@ -2,4 +2,7 @@
 
 1. Layout HOME \
    <img width="250" alt="image" src="https://github.com/calvin0s/FE_project/assets/174256755/f73c8644-443b-48dc-b087-37adc7f377dd">
-
+2. Arrange Sentence \
+   <img width="250" alt="layout" src="https://github.com/calvin0s/FE_project/assets/174256755/7414331d-cd64-4a87-88a8-7a7f05141a6b">
+   <img width="250" alt="arrange1" src="https://github.com/calvin0s/FE_project/assets/174256755/7aa6b63e-84d5-4f6a-a2ca-9bc9ccafd5dd">
+   <img width="250" alt="arrange2" src="https://github.com/calvin0s/FE_project/assets/174256755/c4e7be0b-8a30-4784-9a50-19a28c108a1f">
