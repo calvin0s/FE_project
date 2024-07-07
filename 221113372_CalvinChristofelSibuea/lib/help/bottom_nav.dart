@@ -4,10 +4,9 @@ class BottomNavBar extends StatefulWidget {
   final int selectedIndex;
   final Function(int) onItemTapped;
 
-  const BottomNavBar({super.key, required this.selectedIndex, required this.onItemTapped});
+  BottomNavBar({required this.selectedIndex, required this.onItemTapped});
 
   @override
-  // ignore: library_private_types_in_public_api
   _BottomNavBarState createState() => _BottomNavBarState();
 }
 

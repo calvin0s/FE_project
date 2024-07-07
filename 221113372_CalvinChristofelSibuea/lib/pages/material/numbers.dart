@@ -62,7 +62,6 @@ class Numbers extends StatelessWidget {
                       ElevatedButton(
                         onPressed: () {
                           context.read<SoalModel>().next();
-                          context.read<SoalModel>().nextProgress(soalModel.number.length);
                         },
                         child: const Row(
                           children: [Icon(Icons.arrow_right), Text("Lanjut")],

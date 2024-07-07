@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:inggris_untuk_anak/help/square_tile.dart';
 
-// ignore: must_be_immutable
 class MyHomePage extends StatefulWidget {
-  MyHomePage({super.key, required this.isi});
-  String isi = 'lib/images/background.jpg';
+  const MyHomePage({super.key});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -28,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
       "nama": "Fruits",
       "arti": "Buah-buahan",
       "img": "lib/images/fruits/fruits.png",
-      "rute": "/buah"
+      "rute": "buah"
     },
     {
       "nama": "Numbers",
@@ -40,34 +38,46 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage(widget.isi), // Ganti dengan lokasi gambar latar belakang Anda
-            fit: BoxFit.cover,
-          ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(useMaterial3: false),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text(
+            "Home/Beranda",
+            style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Helvetica'),
+          )
         ),
-        child: Center(
-          child: GridView(
+        body: Container(
+            decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('lib/images/background.jpg'), // Ganti dengan lokasi gambar latar belakang Anda
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: Center(
+            child: GridView(
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
               ),
               children: [
-                ...rute.map(
-                  (e) => SquareTile(
-                      imagePath: "${e["img"]}",
-                      text1: "${e["nama"]}",
-                      text2: "${e["arti"]}",
-                      onTap: () {
-                        Navigator.pushNamed(context, e["rute"]);
-                      }),
+                ...rute.map((e) => SquareTile(
+                  imagePath: "${e["img"]}",
+                  text1: "${e["nama"]}",
+                  text2: "${e["arti"]}",
+                    onTap: () {
+                      Navigator.pushNamed(context, e["rute"]);
+                    }
+                  ),
                 )
               ]
             ),
+          ),
         ),
       ),
-      // ),
     );
   }
 }
