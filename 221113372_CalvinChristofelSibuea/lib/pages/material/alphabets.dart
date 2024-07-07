@@ -63,6 +63,7 @@ class Alphabets extends StatelessWidget {
                       ElevatedButton(
                         onPressed: () {
                           context.read<SoalModel>().next();
+                          context.read<SoalModel>().nextProgress(soalModel.alphabet.length);
                         },
                         child: const Row(
                           children: [Icon(Icons.arrow_right), Text("Lanjut")],

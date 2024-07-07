@@ -4,6 +4,7 @@ class RadioButton extends StatefulWidget {
   const RadioButton({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _RadState createState() => _RadState();
 }
 

@@ -30,6 +30,7 @@ class _ArrangeWordState extends State<ArrangeWord> {
 
   int indeks = 0;
   int? selectedChip = 0;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -54,10 +55,15 @@ class _ArrangeWordState extends State<ArrangeWord> {
             ),
           ),
           backgroundColor: Colors.yellow[100],
-          body: Container(
-            margin: const EdgeInsets.all(18),
-            child: Stack(
+          body: Stack(
               children: [
+                if(showContent || !showContent)
+                  Positioned(top: 0, left: 0, right: 0,
+                    child: LinearProgressIndicator(
+                      value: (indeks/kalimat.length),
+                      valueColor: const AlwaysStoppedAnimation<Color>(Colors.green),
+                    )
+                  ),
                 if(showContent)
                   Positioned(top: 10.0, left: 0, right: 0,
                     child: Text(kalimat[indeks]["soal"],
@@ -166,6 +172,7 @@ class _ArrangeWordState extends State<ArrangeWord> {
                             sementara.clear();
                           } else {
                             showContent = false;
+                            indeks++;
                           }
                         });
                       },
@@ -192,6 +199,7 @@ class _ArrangeWordState extends State<ArrangeWord> {
                             sementara.clear();
                           } else {
                             showContent = false;
+                            indeks++;
                           }
                         });
                       },
@@ -205,7 +213,6 @@ class _ArrangeWordState extends State<ArrangeWord> {
                   )
                 ),
               ]
-          ),
         ),
       ),
     );

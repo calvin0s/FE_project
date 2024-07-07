@@ -20,13 +20,13 @@ class Boxes extends StatelessWidget {
           padding: const EdgeInsets.only(top: 2.0, bottom: 2.0, left: 4.0, right: 4.0),
           child: Text(
             teks,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
             ),
           ),
         ),
       ),
-      SizedBox(width: 5, height: 10,)
+      const SizedBox(width: 5, height: 10,)
       ]
     );
   }

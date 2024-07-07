@@ -52,9 +52,7 @@ class _QuizzScreenState extends State<QuizzScreen> {
           ),
         ),
         backgroundColor: AppColor.pripmaryColor,
-        body: Padding(
-            padding: const EdgeInsets.all(18.0),
-            child: PageView.builder(
+        body: PageView.builder(
               controller: _controller!,
               onPageChanged: (page) {
                 if (page == questions.length - 1) {
@@ -69,9 +67,12 @@ class _QuizzScreenState extends State<QuizzScreen> {
               physics: const NeverScrollableScrollPhysics(),
               itemBuilder: (context, index) {
                 return Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
+                    LinearProgressIndicator(
+                      value: index/questions.length,
+                      valueColor: const AlwaysStoppedAnimation(Colors.green),
+                    ),
                     SizedBox(
                       width: double.infinity,
                       child: Text(
@@ -179,7 +180,6 @@ class _QuizzScreenState extends State<QuizzScreen> {
               },
               itemCount: questions.length,
             )),
-      ),
     );
   }
 }
